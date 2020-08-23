@@ -1,0 +1,20 @@
+I/ Thiet bi
+	1.PIR
+	+ PUB
+		hotel/room-1/sensor/pir/mainroom 
+		hotel/room-1/sensor/pir/bathroom
+	2.IR
+	+ PUB
+		hotel/room-1/sensor/ir
+
+	3. RELAY
+	+ PUB
+		hotel/room-1/relay
+	+ SUB
+		hotel/room-1/admin
+		hotel/room-1/sensor
+II/ Script
+	+PUB
+		hotel/room-1/admin
+	+SUB
+		hotel/room-1/relay
